@@ -1,0 +1,74 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%% ModernCV themes
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+%% Personal data
+\firstname{Diogo}
+\familyname{Soares}
+\title{Curriculum Vitae}
+\address{Rua L, Conjunto Ribeiro Jr. Cidade Nova 1. Manaus, AM.}{}
+\mobile{+55~(092)~9177~1373}
+%\phone{+2~(345)~678~901}
+%\fax{+3~(456)~789~012}
+\email{soares.diogom@gmail.com}
+%\homepage{www.johndoe.com}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture}
+%\quote{Some quote (optional)}
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Dados Pessoais}
+\cvlistitem{\textbf{Nome Completo:} Diogo Soares Moreira}
+\cvlistdoubleitem{\textbf{Idade:} 23}{\textbf{Estado Civil:} Solteiro}
+\cvlistitem{\textbf{Endereço: }Rua L, Conjunto Ribeiro Jr. Cidade Nova 1. Manaus, AM.}
+\cvlistitem{\textbf{Celular:} 91771373}
+\cvlistitem{\textbf{Email:} soares.diogom@gmail.com}
+
+\section{Formação}
+\cventry{2012--}{Mestrado em andamento em Informática}{Instituto de Computação}{}{}{Universidade Federal do Amazonas.}
+\cventry{2008--2012}{Bacharelado em Ciência da Computação}{Instituto de Computação}{}{}{Universidade Federal do Amazonas.}  % arguments 3 to 6 can be left empty
+
+\section{Formação Complementar}
+\cventry{2012--2012}{Escola de Verão da Maratona de Programação}{Instituto de Computação}{}{}{Universidade Estadual de Campinas. 160h.}
+\cventry{2012--2012}{Curso de Atualização em Redes de Computadores}{Instituto de Computação}{}{}{Universidade Federal do Amazonas. 40h.}  % arguments 3 to 6 can be left empty
+\cventry{2011--2011}{Programação para Web - PHP e JQuery}{Instituto de Computação}{}{}{Universidade Federal do Amazonas. 30h.}  % arguments 3 to 6 can be left empty
+
+\section{Atuação Profissional}
+\cventry{2008--2011}{Bolsista do programa ITI. Projeto: Sistema de Monitoramento e Armazenamento de Dados de FaUna Terrestre e MIcro-clima Gerados por Sensores Móveis e Fixos (SAUIM)}{Instituto de Computação}{}{}{Universidade Federal do Amazonas.}
+
+\section{Idiomas}
+\cvitemwithcomment{Inglês}{Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem.}{}
+
+\section{Produção Técnica}
+\cvitem{Artigo Publicado}{Uma Nova Política De Gerência De Buffer Para Redes Tolerantes Ao Atraso e Desconexões Baseada Em Relações Sociais. In: XXXI Simpósio Brasileiro de Telecomunicações, 2013, Fortaleza. SBrT 2013.}
+
+\section{Prêmios e Títulos}
+\cventry{2013}{Menção honrosa - Etapa Nacional da Maratona de Programação 2013 (The 2013 ACM-ICPC South America Brazil)}{}{}{}{Sociedade Brasileira de Computação.}
+\cventry{2013}{1º lugar - Etapa Regional da Maratona de Programação 2013 (The 2013 ACM-ICPC South America Brazil - First Phase)}{}{}{}{Sociedade Brasileira de Computação.}
+\cventry{2013}{1º lugar - Maratona de Teste de Software}{}{}{}{Encontro Amazônico de Teste de Software.}
+\cventry{2012}{Menção honrosa - Etapa Regional da Maratona de Programação (The 2012 ACM-ICPC South America Brazil - First Phase)}{}{}{}{Sociedade Brasileira de Computação.}
+
+%\cvitem{title}{ \emph{Title} }
+%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%\cvdoubleitem{category X}{XXX, YYY, ZZZ}{category Y}{XXX, YYY, ZZZ}
+%\cvlistitem{Item 1}
+%\cvlistdoubleitem{Item 2}{Item 3}
+%%% ...
+
+\bibliography{publications}
+\end{document}
